@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-size: small;
+}
+table {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    width: 100%;
+    text-align: left;
+}
+h2 {
+    margin: 0 0 5px 0;
+}
+th {
+    padding: 0 10px 14px 10px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 5px;
+}
+td {
+    margin: 0;
+    padding: 6px 10px 9px 10px;
+}
+label {
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+select {
+    font-size: 120%;
+    width: 50%;
+}
+fieldset {
+    border: 0 solid white;
+    margin: 0;
+    padding: 0;
+}
+legend {
+    font-weight: bold;
+}
+.rnco {
+    margin: 4px 0 0 0;
+}
+.rnct {
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.othertext {
+    margin-left: 20px;
+}
+.newftextbox {
+    width: 100%;
+}
+.money {
+    width: 150px;
+}
+.moneytd {
+    padding: 0;
+}
+.moneydollar {
+    width: 85px;
+}
+.moneycent {
+    width: 10px;
+}

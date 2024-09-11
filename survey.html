@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>[Bài tập] Tạo form lấy survey khách hàng</title>
+</head>
+<body>
+    <form method="get" action="survey.html">
+        <table>
+            <tr>
+                <th>
+                    <h2>Market Research Survey</h2>
+                    <p style="font-weight: normal;margin: 0">Please take a few moments to complete this satisfaction survey.</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="agerange">What is your yearly income range?</label><br>
+                        <select id="agerange" name="agerange">
+                            <option value="18-24">18-24</option>
+                            <option value="25-34">25-34</option>
+                            <option value="35-50">35-50</option>
+                            <option value="50+">50+</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="anualincome">What is your yearly income range?</label><br>
+                        <select id="anualincome" name="anualincome">
+                            <option value="$0 - $25,000">$0 - $25,000</option>
+                            <option value="$25,001 - $50,000">$25,001 - $50,000</option>
+                            <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+                            <option value="$100,000">$100,000</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Gender Identity</legend>
+                        <input type="radio" id="male" class="rnco" name="gender" value="Male">
+                        <label for="male" class="rnct">Male</label><br>
+                        <input type="radio" id="female" class="rnco" name="gender" value="Female">
+                        <label for="female" class="rnct">Female</label><br>
+                        <input type="radio" id="nobinary" class="rnco" name="gender" value="Nobinary">
+                        <label for="nobinary" class="rnct">Nobinary</label><br>
+                        <input type="radio" id="other" class="rnco" name="gender" value="Other">
+                        <label for="other" class="rnct">Other</label><br>
+                        <label><input type="text" name="othertext" class="othertext"></label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Which of the following products have your purchased in the last 2 months. Please check all that apply.</legend>
+                        <input type="checkbox" id="pd1" class="rnco" name="product">
+                        <label for="pd1" class="rnct">Product 1</label><br>
+                        <input type="checkbox" id="pd2" class="rnco" name="product">
+                        <label for="pd2" class="rnct">Product 2</label><br>
+                        <input type="checkbox" id="pd3" class="rnco" name="product">
+                        <label for="pd3" class="rnct">Product 3</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>How often would you use our new product?</legend>
+                        <input type="radio" id="daily" class="rnco" name="usage" value="Daily">
+                        <label for="daily" class="rnct">Daily</label><br>
+                        <input type="radio" id="weekly" class="rnco" name="usage" value="Weekly">
+                        <label for="weekly" class="rnct">Weekly</label><br>
+                        <input type="radio" id="monthly" class="rnco" name="usage" value="Monthly">
+                        <label for="monthly" class="rnct">Monthly</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>What would you pay for the new product?</legend>
+                        <table class="money">
+                            <tr>
+                                <td class="moneytd">
+                                    $
+                                    <input type="text" name="dollars" id="dollar" class="moneydollar">
+                                </td>
+                                <td class="moneytd">
+                                    .
+                                    <input type="text" name="cents" id="cent" class="moneycent">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="moneytd">
+                                    <label for="dollar" class="rnct">Dollars</label>
+                                </td>
+                                <td class="moneytd">
+                                    <label for="cent" class="rnct">Cents</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="newf">What features would you like to see in the new product.</label><br>
+                    <input type="text" class="newftextbox" id="newf" name="newfeatures">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
