@@ -10,6 +10,7 @@ table {
 h2 {
     margin: 0 0 5px 0;
 }
+
 th {
     padding: 0 10px 14px 10px;
     border-bottom: 1px dotted black;
@@ -45,7 +46,7 @@ legend {
 .othertext {
     margin-left: 20px;
 }
-.newftextbox {
+.textarea {
     width: 100%;
 }
 .money {
@@ -59,4 +60,33 @@ legend {
 }
 .moneycent {
     width: 10px;
+}
+table.ratetable {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;;
+}
+td.title {
+    border: 1px solid white;
+    padding-left: 0;
+}
+td.ratecontent {
+    border: 2px solid lightgray;
+    font-weight: bold;
+}
+td.ratepoint {
+    border: 2px solid lightgray;
+    width: 15%;
+    text-align: center;
+}
+tr.ratetable:nth-child(even) {
+    background-color: #f5f5f5;
+}
+tr.ratetable:hover {
+    background-color: #ddd;
+}
+label.ratepoint {
+    font-weight: normal;;
 }
